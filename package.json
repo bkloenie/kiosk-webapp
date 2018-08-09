@@ -5,6 +5,7 @@
   "homepage": "https://bkloenie.github.io/kiosk-webapp/",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-player": "^1.6.4",
@@ -15,9 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
-    
   }
 }
